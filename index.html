@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!---navbar----->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>HOME</li>
+            <li><a href="#"></a>ABOUT</li>
+            <li><a href="#"></a>TOUR</li>
+            <li><a href="#"></a>EXPLORE</li>
+            <li class="ctn"><a href="#">CONTACT</a></li>
+        </ul>
+        <img src="./img2.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colourful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">learn More</a>
+        </div>
+    </header>
+
+
+    <!---- event -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img3.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus praesentium ipsa ullam iusto, quo, cupiditate excepturi consequuntur quam aperiam ipsum assumenda ex perferendis repudiandae illum? Vero expedita praesentium architecto nesciunt!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img4.jpg" alt="">
+                <h4>Walking holiday</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus praesentium ipsa ullam iusto, quo, cupiditate excepturi consequuntur quam aperiam ipsum assumenda ex perferendis repudiandae illum? Vero expedita praesentium architecto nesciunt!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+       <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla incidunt dolores quam modi veniam expedita animi repellat commodi, officiis labore optio, aliquid blanditiis non. Sed voluptatum aut obcaecati ea asperiores.</p>
+        <a href="#" class="ctn">Learn More</a>
+       </div> 
+    </section>
+
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Upcoming Tours & Plans</h1>
+                <div class="line"></div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat laborum quae dolorem minus deserunt ea! Maxime optio omnis alias neque consectetur autem doloribus earum porro ipsam. Quia consectetur ullam ea.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallary">
+                    <img src="./img7.jpg" alt="">
+                    <img src="./img8.jpg" alt="">
+                    <img src="./img9.jpg" alt="">
+                    <img src="./img10.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>552 Goyal Vihar Khajrana , Indore</p>
+        <p>Copyright @ 2023 PRATIK VORA</p>
+        <p>Created By:- PRATIK VORA</p>
+    </section>
+    <script>
+        const menuBtn =document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
