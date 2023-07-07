@@ -34,7 +34,7 @@ body ,html{
 header{
     width: 100vw;
     height: 100vh;
-    background-image: url('/img1.jpg');
+    background-image: url('https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=600');
     background-position: bottom;
     background-size: cover ;
     display: flex;
@@ -123,7 +123,7 @@ p{
 .explore{
     width: 100%;
     height: 95vh;
-    background-image: url(./img6.jpg);
+    background-image: url('https://images.pexels.com/photos/358118/pexels-photo-358118.jpeg?auto=compress&cs=tinysrgb&w=600');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
